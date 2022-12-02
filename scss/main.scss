@@ -40,6 +40,50 @@ a{
     border-radius: 50%;
     box-shadow: 2px 2px 8px 4px grey;
   }
-main{
-    padding-top: 100px;
+.hero{
+    display: flex;
+    .hero__card{
+        width: 500%;
+    }
+    h1{
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 82px;
+        letter-spacing: 2px;  
+        color: #FF8A56;
+    }
+    h2{
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 82px;
+        letter-spacing: 2px;
+        color: #000000;
+    }
+    p{
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        color: #666666;
+        margin: 34px 0 38px 0;
+    }
+    button{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        color: #FFFFFF;
+        padding: 17px 25px;
+        background-color: #000000;
+        border: none;
+    }
+    a{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px; 
+        color: #000000;
+        margin:0 14px 0 30px;
+
+    }
+    svg{
+        width: 15px;
+    }
 }
