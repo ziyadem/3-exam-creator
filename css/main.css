@@ -39,7 +39,7 @@ header {
   top: 0;
   left: 0;
   width: 300px;
-  height: 100%;
+  height: 700px;
   background-color: white;
   padding-left: 20px;
 }
@@ -118,9 +118,19 @@ a {
 
 .hero {
   display: flex;
+  flex-wrap: wrap;
+  padding: 80px 0 20px 0;
 }
 .hero .hero__card {
-  width: 500%;
+  width: 50%;
+}
+.hero .hero__card2 {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+.hero .hero__card2 img {
+  width: 100%;
 }
 .hero h1 {
   font-weight: 700;
@@ -161,4 +171,117 @@ a {
 }
 .hero svg {
   width: 15px;
+}
+
+.hero-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-services h4 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #FF5E69;
+  margin-bottom: 20px;
+}
+.hero-services p {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 59px;
+  width: 70%;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.services__card {
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.services__card .services__box {
+  width: 33.3%;
+  padding-right: 60px;
+}
+.services__card .services__box h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  margin: 35px 0 25px 0;
+}
+.services__card .services__box p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #666666;
+  margin-bottom: 20px;
+}
+.services__card .services__box .design {
+  display: flex;
+  align-items: center;
+}
+.services__card .services__box a {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+}
+.services__card .services__box #kvadrat {
+  height: 7px;
+  width: 7px;
+  background-color: #000000;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    padding: 0 10px;
+  }
+  .hero {
+    padding-top: 10px;
+  }
+  .hero .hero__card {
+    width: 50%;
+  }
+  .hero .hero__card2 {
+    width: 50%;
+  }
+  .hero h1 {
+    line-height: 60px;
+    font-size: 60px;
+  }
+  .hero h2 {
+    line-height: 60px;
+    font-size: 60px;
+  }
+  .hero p {
+    font-size: 20px;
+  }
+  .services__card .services__box {
+    width: 50%;
+    padding: 0 20px 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .hero {
+    padding-top: 10px;
+  }
+  .hero .hero__card {
+    width: 100%;
+  }
+  .hero .hero__card2 {
+    width: 100%;
+  }
+  .hero-services p {
+    font-size: 40px;
+    line-height: 40px;
+    width: 90%;
+  }
+  .services__card .services__box {
+    width: 100%;
+    padding: 0 20px 30px;
+  }
 }/*# sourceMappingURL=main.css.map */
