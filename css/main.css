@@ -153,24 +153,20 @@ a {
   color: #666666;
   margin: 34px 0 38px 0;
 }
-.hero button {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 18px;
-  color: #FFFFFF;
-  padding: 17px 25px;
-  background-color: #000000;
-  border: none;
-}
 .hero a {
   font-weight: 400;
   font-size: 18px;
   line-height: 18px;
   color: #000000;
-  margin: 0 14px 0 30px;
 }
 .hero svg {
   width: 15px;
+}
+.hero .book-link {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
 }
 
 .hero-services {
@@ -236,6 +232,85 @@ a {
   margin-right: 10px;
 }
 
+#a-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #FFFFFF;
+  padding: 17px 25px;
+  height: 58px;
+  background-color: #000000;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+#a-link:hover {
+  background-color: white;
+  color: #000000;
+}
+
+#Projects {
+  padding-top: 150px;
+}
+#Projects h3 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #B16CEA;
+  margin-bottom: 20px;
+}
+#Projects h2 {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 59px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+#Projects .bring {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.prj {
+  padding-top: 70px;
+  display: flex;
+}
+.prj .prj-card svg {
+  width: 15px;
+}
+.prj .prj-card .view {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 20px;
+}
+.prj .prj-card .one {
+  padding-left: 32px;
+}
+.prj .prj-card h5 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #3C46FF;
+  margin: 30px 0 17px;
+}
+.prj .prj-card h6 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+}
+.prj .prj-card a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #000000;
+}
+
 @media screen and (max-width: 1000px) {
   .container {
     padding: 0 10px;
@@ -276,12 +351,24 @@ a {
     width: 100%;
   }
   .hero-services p {
-    font-size: 40px;
-    line-height: 40px;
-    width: 90%;
+    font-size: 45px;
+    line-height: 45px;
+    width: 100%;
   }
   .services__card .services__box {
     width: 100%;
     padding: 0 20px 30px;
+  }
+  #Projects {
+    padding-top: 20px;
+  }
+  #Projects h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+  }
+  #Projects h2 {
+    font-size: 45px;
+    line-height: 45px;
   }
 }/*# sourceMappingURL=main.css.map */
