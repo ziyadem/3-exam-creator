@@ -173,6 +173,7 @@ a{
 
 #Projects{
     padding-top: 150px;
+    padding-bottom: 100px;
     h3{
         font-weight: 700;
         font-size: 22px;
@@ -199,15 +200,22 @@ a{
 .prj{
     padding-top:70px;
     display: flex;
+    justify-content: space-around;
     .prj-card{
-       svg{
-        width: 15px;
-       }
         .view{
+            svg{
+             width: 15px;
+            }
             display: flex;
             align-items: center;
             gap: 10px;
             padding-top: 20px;
+            a{
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 18px;
+                color: #000000;
+            }
         }
         .one{
             padding-left:32px ;
@@ -226,12 +234,22 @@ a{
             font-size: 24px;
             line-height: 26px;
         }
-        a{
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 18px;
-            color: #000000;
-        }
+        
+    }
+    .prj-card3{
+        display: none;
+    }
+}
+.l-r{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    button{
+        padding: 10px 20px;
+        font-size: 20px;
+        width: 100px;
+        background-color: #000000;
+        color: white;
     }
 }
 
