@@ -1,4 +1,280 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+footer {
+  padding-top: 78px;
+  padding-bottom: 75px;
+  background-color: black;
+}
+footer h3 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #FF8A56;
+  text-align: center;
+  margin-bottom: 20px;
+}
+footer h2 {
+  padding-bottom: 100px;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 59px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.footer-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-card .card-left {
+  width: 40%;
+}
+.footer-card .card-left .card-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(229, 229, 229, 0.3);
+  padding: 40px 0;
+}
+.footer-card .card-left .card-link h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.3px;
+  color: #FFFFFF;
+}
+.footer-card .card-left .card-link img {
+  width: 15px;
+  height: 15px;
+}
+
+.card-second {
+  display: none;
+  background-color: #FFFFFF;
+  padding: 20px 5px 20px 0;
+}
+.card-second span {
+  margin: 20px 0;
+}
+.card-second h5 {
+  color: black;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.3px;
+  display: inline-block;
+}
+.card-second h6 {
+  margin-top: 5px;
+  font-size: 15px;
+  color: black;
+  display: inline-block;
+  float: right;
+}
+
+.pastStrelkaYoqBolish .card-second {
+  display: block;
+}
+
+.card-second1 {
+  display: none;
+  background-color: #FFFFFF;
+  padding: 20px 5px 20px 0;
+}
+.card-second1 span {
+  margin: 20px 0;
+}
+.card-second1 h5 {
+  color: black;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.3px;
+  display: inline-block;
+}
+.card-second1 h6 {
+  margin-top: 5px;
+  font-size: 15px;
+  color: black;
+  display: inline-block;
+  float: right;
+}
+
+.pastStrelkaYoqBolish1 .card-second1 {
+  display: block;
+}
+
+.card-second2 {
+  display: none;
+  background-color: #FFFFFF;
+  padding: 20px 5px 20px 0;
+}
+.card-second2 span {
+  margin: 20px 0;
+}
+.card-second2 h5 {
+  color: black;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.3px;
+  display: inline-block;
+}
+.card-second2 h6 {
+  margin-top: 5px;
+  font-size: 15px;
+  color: black;
+  display: inline-block;
+  float: right;
+}
+
+.pastStrelkaYoqBolish2 .card-second2 {
+  display: block;
+}
+
+.card-second3 {
+  display: none;
+  background-color: #FFFFFF;
+  padding: 20px 5px 20px 0;
+}
+.card-second3 span {
+  margin: 20px 0;
+}
+.card-second3 h5 {
+  color: black;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.3px;
+  display: inline-block;
+}
+.card-second3 h6 {
+  margin-top: 5px;
+  font-size: 15px;
+  color: black;
+  display: inline-block;
+  float: right;
+}
+
+.pastStrelkaYoqBolish3 .card-second3 {
+  display: block;
+}
+
+.card-second4 {
+  display: none;
+  background-color: #FFFFFF;
+  padding: 20px 5px 20px 0;
+}
+.card-second4 span {
+  margin: 20px 0;
+}
+.card-second4 h5 {
+  color: black;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.3px;
+  display: inline-block;
+}
+.card-second4 h6 {
+  margin-top: 5px;
+  font-size: 15px;
+  color: black;
+  display: inline-block;
+  float: right;
+}
+
+.pastStrelkaYoqBolish4 .card-second4 {
+  display: block;
+}
+
+.card-second5 {
+  display: none;
+  background-color: #FFFFFF;
+  padding: 20px 5px 20px 0;
+}
+.card-second5 span {
+  margin: 20px 0;
+}
+.card-second5 h5 {
+  color: black;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.3px;
+  display: inline-block;
+}
+.card-second5 h6 {
+  margin-top: 5px;
+  font-size: 15px;
+  color: black;
+  display: inline-block;
+  float: right;
+}
+
+.pastStrelkaYoqBolish5 .card-second5 {
+  display: block;
+}
+
+.card-second6 {
+  display: none;
+  background-color: #FFFFFF;
+  padding: 20px 5px 20px 0;
+}
+.card-second6 span {
+  margin: 20px 0;
+}
+.card-second6 h5 {
+  color: black;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.3px;
+  display: inline-block;
+}
+.card-second6 h6 {
+  margin-top: 5px;
+  font-size: 15px;
+  color: black;
+  display: inline-block;
+  float: right;
+}
+
+.pastStrelkaYoqBolish6 .card-second6 {
+  display: block;
+}
+
+.card-second7 {
+  display: none;
+  background-color: #FFFFFF;
+  padding: 20px 5px 20px 0;
+}
+.card-second7 span {
+  margin: 20px 0;
+}
+.card-second7 h5 {
+  color: black;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.3px;
+  display: inline-block;
+}
+.card-second7 h6 {
+  margin-top: 5px;
+  font-size: 15px;
+  color: black;
+  display: inline-block;
+  float: right;
+}
+
+.pastStrelkaYoqBolish7 .card-second7 {
+  display: block;
+}
+
 header {
   height: 150px;
   position: -webkit-sticky;
@@ -42,6 +318,7 @@ header {
   height: 700px;
   background-color: white;
   padding-left: 20px;
+  z-index: 999999999999999;
 }
 .togle .nav-togl a {
   display: block;
@@ -76,6 +353,49 @@ header {
     display: none;
   }
 }
+img {
+  vertical-align: middle;
+}
+
+.contr {
+  position: relative;
+  z-index: 0;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  width: 15%;
+  margin: 5px;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -250,8 +570,7 @@ a {
 }
 
 #Projects {
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding: 150px 0;
 }
 #Projects h3 {
   font-weight: 700;
@@ -279,6 +598,13 @@ a {
   padding-top: 70px;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+}
+.prj .prj-card {
+  width: 48%;
+}
+.prj .prj-card img {
+  width: 100%;
 }
 .prj .prj-card .view {
   display: flex;
@@ -322,11 +648,167 @@ a {
   gap: 20px;
 }
 .l-r button {
-  padding: 10px 20px;
+  padding: 10px;
   font-size: 20px;
-  width: 100px;
+  width: 50px;
   background-color: #000000;
   color: white;
+}
+
+#Experience {
+  padding-bottom: 100px;
+}
+
+.exp-hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.exp-hero .exp-card {
+  width: 50%;
+}
+.exp-hero h4 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #FF5E69;
+}
+.exp-hero h2 {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 59px;
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+.exp-hero p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 40px;
+  color: #666666;
+}
+
+.about-hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.about-hero .ab-card {
+  width: 45%;
+}
+.about-hero .ab-card .stanford {
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.about-hero .ab-card .odd {
+  padding-top: 15px;
+  padding-bottom: 40px;
+  padding-right: 30px;
+  color: rgba(0, 0, 0, 0.6);
+  border-bottom: 1px solid rgb(213, 207, 207);
+}
+.about-hero .img-ab {
+  display: flex;
+  padding-top: 75px;
+  border-bottom: 1px solid rgb(213, 207, 207);
+  justify-content: space-between;
+}
+.about-hero .img-ab p {
+  padding-top: 15px;
+  padding-bottom: 40px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.about-hero .img-ab .imgg {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+.about-hero .img-ab .fleet {
+  display: flex;
+}
+.about-hero .img-ab #img-str {
+  float: right;
+  height: 20px;
+}
+.about-hero .img-ab .p-p {
+  padding-right: 30px;
+  margin-top: 20px;
+}
+
+#Testmonial {
+  padding: 140px 0;
+}
+#Testmonial h3 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #4353FF;
+}
+#Testmonial h2 {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 59px;
+  letter-spacing: 1px;
+  padding: 20px 0 60px;
+}
+#Testmonial .test-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#Testmonial .test-img .txt-img {
+  width: 50%;
+}
+#Testmonial .test-carousel {
+  padding-top: 50px;
+  width: 40%;
+}
+#Testmonial h4 {
+  margin: 32px 0 100px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+}
+#Testmonial h5 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+#Testmonial p {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+}
+#Testmonial .crsl {
+  display: flex;
+  justify-content: space-between;
+}
+#Testmonial .crsl button {
+  margin-left: 20px;
+  padding: 10px;
+  background-color: #000000;
+  color: white;
+  width: 50px;
+  font-size: 20px;
+}
+
+.two-h4 {
+  display: none;
+}
+
+.first-h4 .two-h4 {
+  transition: all 1s;
+  display: block;
+  color: rgb(124, 13, 13);
+}
+.first-h4 .one-h4 {
+  display: none;
 }
 
 @media screen and (max-width: 1000px) {
@@ -356,6 +838,16 @@ a {
   .services__card .services__box {
     width: 50%;
     padding: 0 20px 30px;
+  }
+  .about-hero .ab-card {
+    width: 100%;
+    padding-top: 50px;
+  }
+  #Testmonial .test-carousel {
+    width: 100%;
+  }
+  #Testmonial .test-img .txt-img {
+    width: 100%;
   }
 }
 @media screen and (max-width: 576px) {
@@ -388,5 +880,18 @@ a {
   #Projects h2 {
     font-size: 45px;
     line-height: 45px;
+  }
+  .exp-hero .exp-card {
+    width: 100%;
+  }
+  #Experience {
+    padding-bottom: 0px;
+  }
+  .footer-card .card-left {
+    width: 100%;
+  }
+  .prj .prj-card {
+    width: 100%;
+    margin-bottom: 20px;
   }
 }/*# sourceMappingURL=main.css.map */

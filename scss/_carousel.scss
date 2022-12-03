@@ -1,0 +1,34 @@
+img {
+  vertical-align: middle;
+}
+.contr {
+  position: relative;
+  z-index: 0;
+}
+.mySlides {
+  display: none;
+}
+.cursor {
+  cursor: pointer;
+}
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.column {
+  width: 15%;
+  margin: 5px;
+}
+.demo {
+  opacity: 0.6;
+}
+.active,
+.demo:hover {
+  opacity: 1;
+}
