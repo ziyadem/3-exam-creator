@@ -2,8 +2,8 @@ let shirink = document.querySelector(".nav"),
     navTogl = document.querySelector(".togl"),
     yoqbol = document.querySelector(".yoqbol"),
     mybutton = document.querySelector("#myBtn"),
-    leftDes = document.querySelector(".left-design"),
-    rightDes = document.querySelector(".right-design"),
+    leftDes = document.querySelector(".left-des"),
+    rightDes = document.querySelector(".right-des"),
     prjcard3 = document.querySelector(".prj-card3"),
     prjcard2 = document.querySelector(".prj-card2"),
     prjcard1 = document.querySelector(".prj-card1"),
@@ -16,13 +16,9 @@ let shirink = document.querySelector(".nav"),
     pastStrelka6 = document.querySelector(".past-strelka6"),
     pastStrelka7 = document.querySelector(".past-strelka7"),
     btnLeft = document.querySelector(".btn-left"),
-    btnRight = document.querySelector(".btn-right");
+    btnRight = document.querySelector(".btn-right"),
+    darkBtn = document.querySelector(".drk");
     console.log(btnLeft);
-    // console.log(leftDes);
-    // console.log(rightDes);
-    // console.log(prjcard3 );
-    // console.log(prjcard2 );
-    // console.log(prjcard1 );
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -35,15 +31,18 @@ function scrollFunction() {
     mybutton.style.display = "none";
 
   }
-  
 }
+
+darkBtn.addEventListener("click" , function(){
+  document.body.classList.toggle("dark")
+})
 navTogl.addEventListener("click" , function () {
   document.body.classList.toggle("togle");
 })
 
-// yoqbol.addEventListener("click" , function () {
-//   document.body.classList.toggle("togl-yoqbolish");
-// })
+yoqbol.addEventListener("click" , function () {
+  document.body.classList.toggle("togle");
+})
 mybutton.addEventListener("click",function(){
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
@@ -74,12 +73,6 @@ pastStrelka6.addEventListener("click" , function () {
 pastStrelka7.addEventListener("click" , function () {
   document.body.classList.toggle("pastStrelkaYoqBolish7")
 })
-// let arr=[prjcard1,prjcard2,prjcard3];
-
-// rightDes.addEventListener("click" , function () {
-//    body
-// })
-
 btnLeft.addEventListener("click" , function(){
   document.body.classList.toggle("first-h4")
 })
@@ -101,15 +94,42 @@ function currentSlide(n) {
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}    
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
   }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
   slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
+  
 }
+leftDes.addEventListener("click" , function(){
+  document.body.classList.toggle("prj-card1-card2")
+})
+rightDes.addEventListener("click" , function(){
+  document.body.classList.toggle("prj-card1-card2-card3")
+})
+
+
+
+// let Index = 1;
+// lides(Index);
+
+// function pluslides(n) {
+//   lides(Index += n);
+// }
+
+// function currentlide(n) {
+//   lides(Index = n);
+// }
+
+// function lides(n) {
+//   let i;
+//   let des = document.querySelector("#yous");
+//   console.log(des);
+//   if (n > des.length) {Index = 1}    
+//   if (n < 1) {Index = des.length}
+//   for (i = 0; i < des.length; i++) {
+//     des[i].style.display = "none";  
+//   }
+//   des[Index-1].style.display = "block";  
+// }

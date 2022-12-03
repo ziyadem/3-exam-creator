@@ -202,7 +202,7 @@ a{
     justify-content: space-around;
     flex-wrap: wrap;
     .prj-card{
-        width: 48%;
+        width: 80%;
         img{
             width: 100%;
         }
@@ -242,6 +242,28 @@ a{
     }
     .prj-card3{
         display: none;
+    }
+    .prj-card2{
+        display: none;
+    }
+}
+.prj-card1-card2{
+    .prj-card2{
+        display: block;
+    }
+    .prj-card1{
+        display: none;
+    }
+}
+.prj-card1-card2-card3{
+    .prj-card2{
+        display: none;
+    }
+    .prj-card1{
+        display: none;
+    }
+    .prj-card3{
+        display: block;
     }
 }
 .l-r{
@@ -417,6 +439,22 @@ a{
 }
 
 
+.youSlides {display: none}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
 
 @media screen and (max-width:1000px){
     .container{
